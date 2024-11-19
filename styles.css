@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #1F2937;
+    color: white;
+   
+   
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 5rem;
+   
+    font-size: 1.2rem;
+    
+}
+hr {
+   
+    border: 1px solid #2F3E53;
+}
+.green-style {
+    color: #10B981;
+}
+
+header p {
+    color: gray;
+}
+
+main {
+    margin-top:3rem;
+}
+
+.container-length{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    gap:2rem;
+}
+label {
+    font-size: 1.4rem;
+}
+#password-length {
+    width: 3rem;
+    background-color: white;
+    border-style: none;
+    height: 2rem;
+    color: black;
+    text-align:  center;
+}
+.container-symbols{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+    gap:1.2rem;
+}
+#symbols{
+    width: 1.5rem;  
+}
+
+#generate-password {
+background-color: #10B981;
+border: none;
+width: 10rem;
+height: 2rem;
+border-radius: 0.2rem;
+margin-bottom: 1rem;
+font-size: 1rem;
+}
+
+main .password-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem; 
+    
+}
+.password {
+background-color: #2F3E53;
+border: none;
+width: 10rem;
+height: 2rem;
+border-radius: 0.2rem;
+margin-top: 1rem;
+}
+
+.hide{
+    display: none;
+}
+
+#password-one:hover  .hide{
+    display: block;
+    color: #10B981;
+}
